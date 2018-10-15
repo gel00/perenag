@@ -428,7 +428,7 @@ p.f3 {
   opacity: 1;
 }
 
-#features2 span {
+#features2 span, #features2 img {
   position: relative;
   display: inline-block;
   min-width: 35px;
