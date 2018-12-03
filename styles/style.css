@@ -239,7 +239,6 @@ h5 {
   font-family: 'Poppins', sans-serif;
 }
 
-
 #brand_name h1 {
   font-size: 24px;
   line-height: 30px;
@@ -286,8 +285,15 @@ nav li {
   letter-spacing: 1.2px;
 }
 
+nav a {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #000;
+}
 nav li.active,
-nav li:hover {
+nav a:hover, nav li:hover{
   color: #57a5d6;
 }
 
@@ -405,11 +411,18 @@ p.f3 {
 
 /*-------------features2-----------*/
 
+
 #features2 {
   padding: 60px 15px;
   background: #162548;
   font-family: 'Roboto', sans-serif;
   color: #fff;
+}
+
+#features2 h1 {
+  text-align: center;
+  font-size: 42px;
+  line-height: 1.5em;
 }
 
 .feature2 {
@@ -595,4 +608,128 @@ button {
 button:hover {
   color: #57a5d6;
   background: #fff;
+}
+/*-----------advertise----------*/
+
+.advertise {
+  height: 500px;
+  background: url(../img/banner2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #243a6d;
+  text-align: center;
+}
+
+.features {
+  margin: 67px 0;
+}
+
+.features li {
+  box-sizing: border-box;
+  height: 76px;
+  margin: 22px 0;
+  padding: 7px;
+  background: rgba(255,255,255,0.7);
+
+}
+
+div.price {
+  width: 136px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  border-right: dotted 3px #243a6d;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 60px;
+  font-size: 60px;
+  text-align: left;
+}
+
+li:last-child .price{
+  line-height: 47px;
+}
+
+.gbp {
+  vertical-align: top;
+  font-size: 36px;
+  margin: 0 2px 0 -1px;
+  padding:0;
+}
+
+.from {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  height: 14px;
+  line-height: 14px;
+  font-size: 14px;
+}
+
+.item {
+  padding: 6px 20px 6px 40px;
+  text-align: left;
+  line-height: 50px;
+  font-size: 34px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.small_split {
+  line-height: 20px;
+  font-size: 26px;
+}
+
+.big_split {
+  line-height: 30px;
+  font-size: 34px;
+}
+
+.f_icon img {
+  padding: 7px 40px 0 0;
+  margin: 0 auto;
+}
+
+.f_icon img {
+  max-height: 50px;
+}
+
+.sp_cont {
+  height: 500px;
+  position: relative;
+}
+
+.special {
+  box-sizing: border-box;
+  height: 173px;
+  width: 173px;
+  border-radius: 50%;
+  padding: 35px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(232,155,25,0.6);
+  color: #fff;
+  text-align: left;
+
+}
+
+.small_split2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.big_split2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 23px;
+}
+
+.special .price {
+  padding: 0;
+  border: none;
+  width: auto;
 }
